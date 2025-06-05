@@ -5,4 +5,4 @@ Feature: Add to Cart
     And the user enter "vbn1" as pasword
     When the user click on login button
     And the user click on product name
-    Then that product be sucessfully added
+    Then that product be successfully added
