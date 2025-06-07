@@ -8,7 +8,7 @@ Feature: User Registration
 
     Examples:
       | username | password |
-      | trf      | vbn1     |
-      | cvrt     | mjk      |
-      | olk      | yut      |
-      | qaz      | 123      |
+      | Manish   | vbn1     |
+      | Bittu    | mjk      |
+      | Vikram   | yut      |
+      | Moni     | 123      |

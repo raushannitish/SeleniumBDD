@@ -45,4 +45,5 @@ def sign_up(context):
 @then('registration should be displayed successfully')
 def regi_station(context):
     print("Registration attempt completed.")
+    context.driver.find_element(By.XPATH,"//div[@id='signInModal']//span[@aria-hidden='true'][normalize-space()='×']").click()
     time.sleep(5)

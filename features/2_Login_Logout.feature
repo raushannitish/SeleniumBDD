@@ -1,19 +1,16 @@
 Feature: User Login and Logout
-  Scenario Outline: the user can able to login and logout
+  Scenario: the user can able to login and logout
     Given user open the login page
-    And the user enter "<usename>" as usename
-    And the user enter "<pasword>" as pasword
+    And the user enter "Bittu" as username
+    And the user enter "mjk" as password
     When the user click on login button
     Then login should be happen
     And the user sucessfully logout
-    Examples:
-      |usename |pasword |
-      |trf      |vbn1     |
-      |cvrt     |mjk      |
+
 
   Scenario: Invalid login
   Given user open the login page
-  And the user enter "wronguser" as usename
-  And the user enter "wrongpass" as pasword
+  And the user enter "trf" as u_name
+  And the user enter "vb" as p_assword
   When the user click on login button
   Then error alert should be shown
